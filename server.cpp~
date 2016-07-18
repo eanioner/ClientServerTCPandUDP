@@ -7,6 +7,7 @@
 #include <netinet/in.h>
 #include <arpa/inet.h>
 
+
 #include "parsing.h"
 #include "constants.h"
 
@@ -24,6 +25,7 @@ int sock(const int SOCK_TYPE, const int IPPROTO){
 		std::cout << "Socket was not created!\n";
 		return -1;
 	}
+
 
 	struct sockaddr_in sockAddr;
 	sockAddr.sin_family = AF_INET;
@@ -133,7 +135,7 @@ int main(int argc, char **argv) {
 			<< ".\n";
 
 	// additional variable
-	char buf = 0;		// to do: it's better to use char buf[1000]
+	char buf = 0;
 	int msg_size = 0;
 
 
