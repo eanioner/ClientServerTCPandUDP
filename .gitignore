@@ -1,5 +1,9 @@
 client
 server
+Makefile
+*.cmake
+CMakeCache.*
+CMakeFiles
 
 # Object files
 *.o
