@@ -1,6 +1,6 @@
 # ClientServerTCPandUDP
 
-1) To build a project enter in command line "cmake ./"
+1) To build a project enter in command line "cmake ./", and then "make"
 
 2) To run server with TCP enter "./server"
 
